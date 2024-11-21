@@ -20,7 +20,7 @@ const selector = document.getElementById('selector');
   const optionsList = document.getElementById('optionsList');
   const textSpan = selector.querySelector('.text');
 
-  // Mostrar u ocultar la lista de opciones
+  // Mostrar u ocultar
   selector.onclick = function() {
     optionsList.classList.toggle('open');
   };
